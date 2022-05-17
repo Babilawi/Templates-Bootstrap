@@ -7,6 +7,11 @@ body{
     overflow-x: hidden
 }
 
+.moon{
+    z-index: 5000; 
+    width: 40px;
+}
+
 
 /* Fondo */
 

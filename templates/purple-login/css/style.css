@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500&display=swap');
+
+body{
+
+    font-family: Dosis !important;
+    overflow-x: hidden
+
+}
+
+.bg-login{
+    background: rgb(125,95,208);
+background: linear-gradient(90deg, rgba(125,95,208,1) 0%, rgba(91,63,200,1) 100%);    
+}
+
+
+.fondo{
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.transparente{
+    background-color: rgba(255, 255, 255, 0.521);
+}
+
+
+
+
+.formulario{
+    border: none;
+    border-bottom: 1px solid #0093c2;
+    border-radius: 0;
+}
+
+.formulario:focus{
+    
+    border: none;
+    border-bottom: 3px solid #0093c2;
+    border-radius: 0;
+    box-shadow: none;
+    transition: all 0.1s ;
+}
+
+.loginButon{
+    background-color:#5b3ac9;
+    border: 3px solid #5b3ac9;
+    border-radius: 0;
+    color: white;
+    padding: 10px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.bienvenido{
+    color:#5b3ac9;
+}
+
+a{
+    color: #5b3ac9;
+    text-decoration: none;
+}
+
+label{
+    color: #5b3ac9;
+}
+
+.fondoLogin{
+    background: url(../img/feather-4431599_1920.jpg) !important;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100% !important;
+    min-height: 38rem !important;
+    border-radius: 20px 0 0 20px;
+}
+
+.tarjeta{
+    border-radius: 20px;
+}
+
+.redondeado-start{
+    border-radius: 20px ; 
+}
+
+.redondeado-end{
+    border-radius: 0 20px  20px 0; 
+}
+
+
+@media (min-width: 992px) {
+    .w-lg-50 {
+       width:50% !important;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .redondeado-end{
+        border-radius: 20px; 
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .redondeado-start{
+        height: 100vh;
+        border-radius: 0;
+    }
+    .redondeado-end{
+        border-radius: 0;
+    }
+}
+    
+
+
+
+
